@@ -26,11 +26,11 @@ Item {
                     {
                         CC.createChild(position0);
                     }
-                    else if(mouse.button == Qt.RightButton)
+                    else if (mouse.button == Qt.RightButton)
                     {
                         CC.createSiblingAfter(position0)
                     }
-                    else (mouse.button == Qt.MiddleButton)
+                    else if (mouse.button == Qt.MiddleButton)
                     {
                         // no clue how to implement
                         // CC.createSiblingBefore(position0)
