@@ -1,8 +1,6 @@
 import QtQuick 2.0
 
 Item {
-    property int nodeId;
-
     id: frame
     width: childrenRect.width
     height: childrenRect.height
@@ -19,8 +17,6 @@ Item {
         x: 10
         id: content
 
-        Position {
-
-        }
+        Position { }
     }
 }

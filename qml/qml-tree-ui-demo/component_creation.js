@@ -2,7 +2,7 @@ function createChild(parent_item) {
     var component = Qt.createComponent("Level.qml");
     if (component.status == Component.Ready)
     {
-        var sprite = component.createObject(parent_item, {"x": 70, "y": 30, "nodeId": nodeId});
+        var sprite = component.createObject(parent_item, {"x": 70, "y": 30});
         if (sprite == null) console.log("Error creating Level object");
     }
     else
